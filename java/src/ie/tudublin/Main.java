@@ -18,6 +18,12 @@ public class Main
 	public void doCatStuff()
 	{
 		// Put your code here
+		Cat ginger = new Cat("Ginger");
+		ginger.kill();
+		for (int i = 0; i<9; i++)
+		{
+			ginger.kill();
+		}
 		System.out.println("cats are from space");
 	}
 	
